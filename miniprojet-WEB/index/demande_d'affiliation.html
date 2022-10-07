@@ -1,0 +1,134 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf_8">
+    <link rel="stylesheet" href="C:\Users\HP\OneDrive\Bureau\miniprojet-WEB\css\ajout.css">
+    <link rel="stylesheet" href="C:\Users\HP\OneDrive\Bureau\miniprojet-WEB\css\bootstrap.css">
+
+</head>
+<body id="index">
+    <div class="context">
+        <h1></h1>
+    </div>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+  </div >
+  
+    <div>
+  
+  
+        
+            <nav id = "navbar" class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <img id="ii" src="C:\Users\HP\OneDrive\Bureau\miniprojet-WEB\index\logo.png" alt=""
+                    width="50px" height="50px">
+                  <a class="navbar-brand" href="accueil.html" target ="self">Accueil</a>
+                  <span>
+                      <a class="navbar-brand" href="activité.html" target ="self">Activités</a>
+                  </span>
+                  <span>
+                    <a class="navbar-brand" href="demande_d'affiliation.html" target ="self">Demande d'affiliation</a>
+                </span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                
+                
+                
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            
+               </nav>
+  
+    </div>
+
+
+    <div class="row1">
+        <div class="offset-3 col-6">
+         <form id="formulaire" >
+             <table id="tableau" align ="center">
+                 <tr>
+                     <td><label for ="i1"><b>CIN:<b></label></td>
+                     <td><input id="i1" type="text" placeholder="carte d'identité nationale" required pattern ="[0-9]{8}"><br></td>
+                  </tr>
+                  <tr>
+                    <td> <label for ="i2"><b>NOM ET PRENOM:</b></label></td>
+                    <td><input id="i2" type="text" placeholder="écrire ici votre nom et prénom" required pattern="[A-Z]{1}[A-Za-z]*"><br></td>
+                 </tr>
+                 
+                 <tr>
+                    <td><b>SEXE:</b></td>
+                    <td>
+                        <input type="radio" name="gender">homme<br>
+                        <input type="radio" name="gender">femme<br>
+                    </td>
+                    </tr>
+                 <tr>
+                      <td><label for ="i4">date de naissance:</label></td>
+                      <td><input id="i4" type ="date " min="1984-12-31" max="1995-01-01"> <br></td>
+                 </tr>
+                 <tr>
+                   <td>	Niveau de diplôme</td>
+                   <td><select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                      <option selected>Ouvrez ce menu de sélection</option>
+                        <option value="1">niveau 1</option>
+                        <option value="2">niveau 2</option>
+                        <option value="3">niveau 3</option>
+                      </select></td> 
+                </tr>
+                <tr border>
+                    <td>établissement</td>
+                    <td><select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Ouvrez ce menu de sélection</option>
+                          <option value="1">Institut supérieur de gestion de Tunis</option>
+                          <option value="2">Ecolle supérieur commerce et logistique ESCL</option>
+                          <option value="3">Institut français de Tunisie</option>
+                        </select></td> <br>
+                    <td><span>
+                        <td>entrez votre établissement</td>
+                        <td><input type="text area"></td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="i6">photo d'identité</label></td>
+                     <td><input  id="i6" type="file"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="i8">Email</label></td>
+                    <td><input id="i8" type="email"><br></td>
+               </tr><tr>
+                <td><label for ="i6" > GSM</label></td>
+                <td><input id="i6" type="tel" pattern="[0-9]{8}"><br></td><tr>
+                    <td>Domaines :</td>
+                    <td><input name="domaine "type="checkbox">chimie<br>
+                    <input name="domaine" type="checkbox">histoire<br>
+                    <input name="domaine" type="checkbox">art<br>
+                    
+                    </td>
+                </tr>
+          </tr>
+          <tr class="table-warning">
+            <td><input type ="submit" value="envoyer une requête"></td>
+            <td><input type ="reset" value ="annuler"></td> </tr>
+                 
+ 
+ </form>
+        </div>
+    </div>
+ 
+ 
+ </div></body></html>
+ 
+ 
